@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "pixelated-ms";
+  src: url("fonts/ms_sans_serif.woff") format("woff");
+  src: url("fonts/ms_sans_serif.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pixelated-ms";
+  src: url("fonts/ms_sans_serif_bold.woff") format("woff");
+  src: url("fonts/ms_sans_serif_bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "pixelated-ms";
+}
+.container {
+    /*background-color: silver;*/
+    background-color: #e6e6e6;
+    margin: auto;
+    max-width: 800px;
+    border: 1px black dotted;
+    line-height: 1.2;
+    /*font-family: "pixelated-ms";*/
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+}
+.container p, table {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.container ul {
+    padding-right: 12px;
+}
+.container h1, h2, h3, h4, h5, h6 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.portrait {
+    max-width: 160px;
+    float: left;
+    margin-bottom: 8px;
+}
+.logo-container {
+    margin: auto;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.ascii-logo {
+    font-family: monospace;
+    line-height: 1.0;
+    background: linear-gradient(90deg,navy,#1084d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.window {
+    font-family: "pixelated-ms";
+    min-height: 40px;
+    margin: 16px;
+    background: silver;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+    padding: 3px;
+}
+.title-bar {
+    align-items: center;
+    background: linear-gradient(90deg,navy,#1084d0);
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 2px 3px 3px;
+}
+.title-bar-text {
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-right: 24px;
+    font-size: 14px;
+}
+.title-bar-controls {
+    display: flex;
+}
+.window-body {
+    margin-top:20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.window-body button { 
+    border: none;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: transparent;
+    min-height: 23px;
+    min-width: 75px;
+    padding: 0 12px;
+    text-shadow: 0 0 #222;
+    background: silver;
+    margin-top: 8px;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+}
+button {
+    border: none;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: transparent;
+}
+.title-bar-controls button {
+    display: block;
+    min-height: 20px;
+    min-width: 22px;
+    background-size: 10px 10px !important;
+    padding: 0;
+    background: silver;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+}
+.title-bar-close-button {
+    background-position: top 4px left 6px !important;
+    background-repeat: no-repeat !important;
+    background-image: url('close.svg') !important;
+    margin-left: 2px;
+}
+.download-section {
+    border-style: double;
+    margin: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+    background: silver;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+}
+ul {
+    list-style-image: url('button-right.svg');
+}
+li {
+    margin-bottom:8px;
+}
+table {
+    margin-left: 12px;
+    margin-right: 12px;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+}
+table, th, td {
+    text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 6px;
+}
+th {
+    /*background: linear-gradient(90deg,navy,#1084d0);*/
+    background: silver;
+    color: black;
+    font-family: "pixelated-ms";
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 2px;
+    padding-top: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.icon-inline {
+    position: relative;
+    top: 6px;
+}
