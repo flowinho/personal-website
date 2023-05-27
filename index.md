@@ -59,4 +59,5 @@ Flo
 |Email|florian [at] schuttkowski [dot] com|
 |Threema|AAVZUW7T|
 |IRC|florian-s, irc.libera.chat|
+|Matrix|@florian-sch::matrix.org|
 |GitHub|flowinho|
