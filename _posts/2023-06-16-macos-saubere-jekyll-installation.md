@@ -1,6 +1,6 @@
 ---
 layout: post
-title "Jekyll sauber unter macOS installieren
+title: "Jekyll sauber unter macOS installieren"
 ---
 
 Jekyll ist ein aus guten Gründen sehr verbreiteter Static Site Generator. Leider ist die Dokumentation etwas fehlerbehaftet bzw. beschreibt nicht den mMn. optimalen Weg zum Ruby on Rails zu installieren und anschließend Jekyll selbst.
