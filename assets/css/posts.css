@@ -1,0 +1,74 @@
+
+  body {
+  
+  font-family: "Roboto-Thin", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Lora";
+    font-weight: 300;
+  }
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.4em; }
+  h3 { font-size: 1.2em;}
+  h4 { font-size: 1.0em; }
+  h5 { font-size: 1.0em; }
+  h6 { font-size: 1.0em; }
+
+  .highlight {
+    font-size: 0.8em;
+  }
+
+  .post-container {
+    margin: auto;
+    max-width: 1000px;
+    line-height: 1.2;
+  }
+  .post-container p, table {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .post-container pre {
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 0.9em;
+  }
+  .post-container ul {
+    padding-right: 12px;
+  }
+  .post-container h1, h2, h3, h4, h5, h6 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .portrait {
+    max-width: 148px;
+  }
+  .logo-container {
+    margin: auto;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    clear:both;
+    line-height: 0.85 !important;
+  }
+  .logo-container a { text-decoration: none; }
+  .logo-container a:visited { text-decoration: none; }
+  .logo-container a:hover { text-decoration: none; }
+  .logo-container a:active { text-decoration: none; }
+
+  .ascii-logo {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    white-space: pre-wrap;
+    background: linear-gradient(90deg,rgb(0, 0, 0),#838383);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  @media (min-width: 320px) {
+    .float-left {
+      float: left;
+    }
+  }
+  

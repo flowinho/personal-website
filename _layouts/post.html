@@ -1,9 +1,28 @@
----
-layout: default
----
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/posts.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/prism.css" | relative_url }}">
+</head>
 
-<h1>{{ page.title }}</h1>
+<body>
+    <div class="logo-container">
+        <a href="{{ site.url }}"><span class="ascii-logo">
+░█▀▀░█░░░█▀█░█▀▄░▀█▀░█▀█░█▀█░░░░░█▀▀
+░█▀▀░█░░░█░█░█▀▄░░█░░█▀█░█░█░▄▄▄░▀▀█
+░▀░░░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀░▀░▀░░░░░▀▀▀
+        </span></a>
+    </div>
 
-<img class="post-icon" src="/assets/tango-0.8.90/32x32/mimetypes/text-x-generic.png" style="float: left;">
+<div class="post-container">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
 
-{{ content }}
+    {% include footer.html %}  
+
+</div>
+<script src="/assets/js/prism.js"></script>
+
+
+</body>
