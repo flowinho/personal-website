@@ -16,6 +16,9 @@
   h5 { font-size: 1.0em; }
   h6 { font-size: 1.0em; }
 
+  img {
+	max-width: 100%;
+  }
   .highlight {
     font-size: 0.8em;
   }
