@@ -21,4 +21,10 @@ git cherry-pick <hash>
 git push -u origin awesome-hotfixes
 ```
 
-Danach wie gehabt einen Pull-Requeust eröffnen.
+Danach wie gehabt einen Pull-Request eröffnen.
+
+**Wichtig**
+
+Es macht keinen Sinn, einen Branch auf Basis von Main zu eröffnen, und dann die Commits, die auf Main vorhanden sind,
+zu cherry-picken, da diese ja sowieso bereits vorhanden sind. Daher macht es Sinn, den PR nur auf Basis der entsprechenden 
+Commits zu erstellen. 
