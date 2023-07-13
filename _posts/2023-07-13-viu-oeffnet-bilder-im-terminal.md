@@ -9,3 +9,9 @@ Die Lösung für dieses Problem heißt `viu`.
 |![](/assets/images/viu-screenshot.png)|
 |:-:|
 |Viu kann viele Dateiformate direkt im Terminal betrachten.|
+
+Installation wie gewohnt über homebrew.
+
+```bash
+brew update && brew install viu
+```
