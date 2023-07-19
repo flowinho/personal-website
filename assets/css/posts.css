@@ -18,6 +18,7 @@
 
   img {
 	max-width: 100%;
+	border-radius: 12px;  
   }
   .highlight {
     font-size: 0.8em;
@@ -31,6 +32,7 @@
   .post-container p, table {
     padding-left: 12px;
     padding-right: 12px;
+	margin-bottom: 32px;
   }
   .post-container pre {
     margin-left: 12px;
