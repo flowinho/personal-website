@@ -5,7 +5,7 @@ title: "Nerdfonts auf iPadOS installieren"
 
 Das iPad ist, leider, noch kein vollwertiger Ersatz für einen Computer oder Mac. Aber es ist ein verdammt praktischer, sehr mobiler SSH-Client. Wer auf seinem Server oder dem Rechner zu dem er:sie sich verbindet gerne Icons nutzt, beispielsweise durch `exa --icons` oder oh-my-zshell mit einem powerline-Skin, der benötigt sogenannte Nerdfonts, also Schriftarten, die einige Icons bereits beinhalten.
 
-|![](/assets/images/shellfish-ipados.png)|
+|![](/assets/images/shellfish-ipados.jpg)|
 |:-:|
 |Shellfish auf iPadOS, oh-my-zsh|
 
