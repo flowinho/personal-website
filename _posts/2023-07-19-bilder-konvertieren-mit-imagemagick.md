@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blog-Images mit Imagemagick komprimieren
+title: "Blog-Images mit Imagemagick komprimieren"
 ---
 
 ```bash
