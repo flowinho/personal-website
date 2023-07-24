@@ -7,3 +7,4 @@ title: "TPM - Tmux Plugin Manager einrichten"
 
 
 [^1]: [https://github.com/tmux/tmux/wiki](https://github.com/tmux/tmux/wiki)
+[^2]: [https://github.com/tmux-plugins/tpm](https://github.com/tmux-plugins/tpm)
